@@ -17,3 +17,7 @@ npx prisma db push
 
 npm i bcryptjs
 npm i -D @types/bcryptjs
+
+npm install next-auth@beta
+
+npx auth secret || openssl rand -base64 32
